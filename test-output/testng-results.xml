@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18222" started-at="2020-12-08T12:07:18Z" finished-at="2020-12-08T12:07:37Z">
+    <groups>
+      <group name="country_user">
+        <method signature="CountryTset.loginTest()[pri:0, instance:com.qa.tests.CountryTset@58651fd0]" name="loginTest" class="com.qa.tests.CountryTset"/>
+      </group> <!-- country_user -->
+    </groups>
+    <test name="Default test" duration-ms="18222" started-at="2020-12-08T12:07:18Z" finished-at="2020-12-08T12:07:37Z">
+      <class name="com.qa.tests.CountryTset">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.CountryTset@58651fd0]" name="setUp" is-config="true" duration-ms="6" started-at="2020-12-08T20:07:18Z" finished-at="2020-12-08T20:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.qa.tests.CountryTset@58651fd0]" name="loginTest" duration-ms="18204" started-at="2020-12-08T20:07:18Z" finished-at="2020-12-08T20:07:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginOut()[pri:0, instance:com.qa.tests.CountryTset@58651fd0]" name="loginOut" is-config="true" duration-ms="1" started-at="2020-12-08T20:07:37Z" finished-at="2020-12-08T20:07:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOut -->
+      </class> <!-- com.qa.tests.CountryTset -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="7201" started-at="2020-12-09T02:33:49Z" finished-at="2020-12-09T02:33:56Z">
+    <groups>
+      <group name="ml_user">
+        <method signature="MlTest.loginTest()[pri:0, instance:com.qa.tests.MlTest@3cda1055]" name="loginTest" class="com.qa.tests.MlTest"/>
+      </group> <!-- ml_user -->
+    </groups>
+    <test name="Testng_learn" duration-ms="7201" started-at="2020-12-09T02:33:49Z" finished-at="2020-12-09T02:33:56Z">
+      <class name="com.qa.tests.MlTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.MlTest@3cda1055]" name="setUp" is-config="true" duration-ms="5" started-at="2020-12-09T10:33:49Z" finished-at="2020-12-09T10:33:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.qa.tests.MlTest@3cda1055]" name="loginTest" duration-ms="7187" started-at="2020-12-09T10:33:49Z" finished-at="2020-12-09T10:33:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginOut()[pri:0, instance:com.qa.tests.MlTest@3cda1055]" name="loginOut" is-config="true" duration-ms="0" started-at="2020-12-09T10:33:56Z" finished-at="2020-12-09T10:33:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginOut -->
+      </class> <!-- com.qa.tests.MlTest -->
+    </test> <!-- Testng_learn -->
+  </suite> <!-- Default Suite -->
+</testng-results>
