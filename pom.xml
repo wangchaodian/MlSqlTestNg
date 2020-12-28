@@ -108,24 +108,20 @@
  <!-- build构建 -->
 <build>
 	<plugins>
-		<!-- maven-surefire-plugin执行test测试包 -->
-		<plugin>
-			<groupId>org.apache.maven.plugins</groupId>
-			<artifactId>maven-surefire-plugin</artifactId>
-			<version>2.20.1</version>
-	<configuration>
-	 <reuseForks>false</reuseForks>
-         <forkCount>1</forkCount>
-         <argLine>-Xmx1024m -XX:MaxPermSize=256m -Dfile.encoding=UTF-8 -Xverify:none</argLine>
-         <additionalClasspathElements>
-             <additionalClasspathElement>${basedir}/src/main/webapp/‌WEB-INF/</additionalClasspathElement>
-         </additionalClasspathElements>
-<!-- maven test 执行testng.xml -->
-	<suiteXmlFiles>
-		<suiteXmlFile>testNg.xml</suiteXmlFile>
-	</suiteXmlFiles>
-	</configuration>
-</plugin>
+<!--添加插件 关联testng-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.19.1</version>
+                <configuration>
+                    <!-- 解决maven test命令时console出现中文乱码乱码 -->
+                    <argLine>-Dfile.encoding=UTF-8</argLine>
+                    <testFailureIgnore>true</testFailureIgnore>
+                    <suiteXmlFiles>
+                        <file>testNg.xml</file>
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
 
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
